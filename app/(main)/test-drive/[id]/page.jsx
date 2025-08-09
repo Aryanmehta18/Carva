@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import React from 'react'
 import TestDriveForm from './_components/test-drive-form';
 
-export async function generateMetaData(){
+export async function generateMetadata(){
     return{
         title:`Book Test Drive | Carva`,
         description:`Schedule a test drive in few seconds`,
